@@ -1,75 +1,39 @@
-1️ - AlexNet – Convolutional Neural Network
-File: AlexNet.py
+## Algorithms Included
 
-Implementation of the classic AlexNet CNN architecture
-Demonstrates deep convolutional feature extraction
-Uses ReLU activation and Dropout
-Concepts Used:
+- Convolutional Neural Networks (AlexNet, CNN)
+- Recurrent Neural Networks (RNN, LSTM)
+- Time Series Forecasting
+- Character-Level Text Generation
+- Reinforcement Learning (Q-Learning, State-Value Learning)
+- Game AI (Tic Tac Toe)
 
-CNN
-Convolution & Pooling
-Fully Connected Layers
-Applications:
+---
 
-Image classification
-Feature extraction
-2️ - Cat vs Dog Image Classification (Built-in Dataset)
-File: CatDog_BuiltInDataset.py
+## Module Summary (Modified)
 
-Binary image classification using CNN
-Uses TensorFlow’s built-in dataset: cats_vs_dogs
-No manual dataset download required
-Concepts Used:
+- **AlexNet (CNN):**  
+  Original architecture cleaned and updated for TensorFlow 2.x compatibility.
 
-CNN
-Binary classification
-TensorFlow Datasets
-Data preprocessing pipeline
-3️ - Deep Reinforcement Learning – Q Learning
-File: DeepReinforcementLearning.py
+- **Cat vs Dog Classification:**  
+  Modified to use TensorFlow’s built-in `cats_vs_dogs` dataset and updated preprocessing.
 
-Q-learning implementation for optimal path finding
-Uses reward matrix and Q-table
-Demonstrates reinforcement learning fundamentals
-Concepts Used:
+- **Deep Reinforcement Learning:**  
+  Fixed Q-learning logic, improved reward handling, and ensured stable training.
 
-Reinforcement Learning
-Q-table
-Reward matrix
-Exploration vs Exploitation
-4️ - LSTM – Time Series Forecasting
-File: LSTM_TimeSeries.py
+- **LSTM – Time Series Forecasting:**  
+  Cleaned data preprocessing and updated model definition for better execution.
 
-Predicts sequential numerical data using LSTM
-Trained on airline passenger dataset
-Concepts Used:
+- **RNN / LSTM – Text Generation:**  
+  Replaced one-hot encoding with embedding layers and improved sequence handling.
 
-LSTM networks
-Time series forecasting
-Data normalization
-Applications:
+- **Tic Tac Toe (Reinforcement Learning):**  
+  Simplified state handling, corrected reward updates, and stabilized self-play training.
 
-Stock prediction
-Demand forecasting
-5️ -  RNN / LSTM – Text Generation
-File: RNN_TextGeneration.py
+---
 
-Character-level text generation
-Uses Embedding + LSTM
-Generates new text based on learned patterns
-Concepts Used:
+## How to Run
 
-Recurrent Neural Networks
-Sequence modeling
-Softmax classification
-6️ -  Tic Tac Toe using Reinforcement Learning
-File: TicTacToe.py
+Each module can be executed independently:
 
-Self-learning Tic Tac Toe AI
-Uses state-value reinforcement learning
-AI learns by playing against itself
-Concepts Used:
-
-Markov Decision Process (MDP)
-Temporal Difference Learning
-State-value function
+```bash
+python filename.py
